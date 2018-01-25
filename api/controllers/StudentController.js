@@ -4,7 +4,7 @@
  * @description :: Server-side logic for managing Students
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
-
+ 
 module.exports = {
 	DeleteStudentByname : function (req ,res)
 	{
@@ -25,8 +25,6 @@ module.exports = {
 			})
 	});
 },
-
-
 	UpdatedByRollNo : function (req,res)
 	{
 		let Roll_no = req.body.Roll_no;
